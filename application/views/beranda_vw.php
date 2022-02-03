@@ -9,6 +9,7 @@
 <body>
     <div class="container mt-3">
         <a href="<?= base_url("tambah"); ?> " class="btn btn-primary btn-md mb-3">Tambah</a>
+        <a href="<?= base_url("backupdb/bckdb");?>" class="btn btn-secondary btn-md mb-3">Backup DB</a>
         <table class="table table-striped table-hover">
             <thead class="table-dark">
                 <th>NPM</th>
