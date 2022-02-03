@@ -53,4 +53,8 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-
+//API
+$route['api/cobaapi/:num']['get']='api/cobaapi/get/$1';
+$route['api/cobaapi/:num']['post']='api/cobaapi/post';
+$route['api/cobaapi/:num']['put']='api/cobaapi/ubah';
+$route['api/cobaapi/:num']['delete']='api/cobaapi/hapus/$1';
