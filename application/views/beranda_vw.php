@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo base_url()?>/assets/css/bootstrap.min.css">
     <script src="<?php echo base_url()?>/assets/js/jquery-3.3.1.min.js"></script>
-    
+
     <title>Belajar CRUD</title>
 </head>
 <body>
@@ -29,8 +29,8 @@
                     <td><?=$baris['alamat']?></td>
                     <td>
                         <div class="row">
-                            <div class="col d-flex justify-content-center"><a href="<?=base_url("Beranda/edit/".$baris['id']);?>"class="btn btn-sm btn-warning"></a></div>
-                            <div class="col d-flex justify-content-center"><a href="<?=base_url("Beranda/hapus/".$baris['id']);?>"class="btn btn-sm btn-danger"></a></div>
+                            <div class="col d-flex justify-content-center"><a href="<?=base_url("Beranda/edit/".$baris['id']);?>"class="btn btn-sm btn-warning">EDIT</a></div>
+                            <div class="col d-flex justify-content-center"><a href="<?=base_url("Beranda/hapus/".$baris['id']);?>"class="btn btn-sm btn-danger">HAPUS</a></div>
                         </div>
                     </td>
             </tbody>                        
